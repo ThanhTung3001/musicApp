@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,300&family=Roboto:ital,wght@0,500;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url('/2474215.jpg') no-repeat ;
+    background-size: cover;
+}
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+
+}
+.card{
+    border-radius: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+   border-radius: 50px !important;
+   margin: 0 10px 0 10px !important;
+}
+.music__list{
+    height: 70px;
+}
+.list-music-items{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    height: 700px;
+}
+.music__list{
+    margin: 10px;
+}
+@media only screen and (max-width: 1200px) {
+    .wrapper {
+      height: 1500px;
+    }
+  }
